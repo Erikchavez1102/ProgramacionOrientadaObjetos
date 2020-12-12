@@ -3,14 +3,18 @@ public class PrincipalRectangulo {
 
 	public static void main(String[] args) {
 
-		int resultadoBase = 0;
-		int resultadoAltura = 0;
-
-		Rectangulo resultadoBase = resultadoBase.perimetro(10, 5);
-		Rectangulo resultadoAltura = objAltura.perimetro(10, 5);
-
-		System.out.println("Resultado = " + resultado);
+		int resultadoArea = 0;
+		int resultadoPerimetro = 0;
+		
+		Rectangulo objArea = new Rectangulo();
+		resultadoArea = objArea.area(10, 5);
+		System.out.println("Area = " + resultadoArea);
+		
+		Rectangulo ObjPerimetro = new Rectangulo ();
+		resultadoPerimetro = ObjPerimetro.perimetro(10, 5);
+		System.out.println("Perimetro = " + resultadoPerimetro);
 
 	}
 
 }
+
