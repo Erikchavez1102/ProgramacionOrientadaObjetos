@@ -10,23 +10,23 @@ public class Principal {
 		
 		Persona ObjPersona3 = new Persona();
 		
-		objPersona.cedula="123446879";
-		objPersona.estaturaMetros=1.50;
-		objPersona.nombre = "Pepito Perez";
+		objPersona.setCedula("123446879");
+		objPersona.setEstaturaMetros(1.50);
+		objPersona.setNombre("Pepito Perez");
 		
 		
-		objPersona2.cedula="ASD-348679569";
-		objPersona2.estaturaMetros=1.77;
-		objPersona2.nombre = "Juan A. Sol";
+		objPersona2.setCedula("ASD-348679569");
+		objPersona2.setEstaturaMetros(1.27);
+		objPersona2.setNombre("Juan A. Sol");
 		
-		ObjPersona3.cedula="CE-3456";
-		ObjPersona3.estaturaMetros=1.27;
-		ObjPersona3.nombre = "Hret Kleu";
+		ObjPersona3.setCedula("CE-3456");
+		ObjPersona3.setEstaturaMetros(1.38);
+		ObjPersona3.setNombre("Hret Kleu");
 		
 		
-		System.out.println("El nombre es: " +objPersona.nombre+ ", Cedula: "+ objPersona.cedula + ", Altura: "+	objPersona.estaturaMetros);
-		System.out.println("El nombre es: " +objPersona2.nombre+ ", Cedula: "+ objPersona2.cedula + ", Altura: "+	objPersona2.estaturaMetros);
-		System.out.println("El nombre es: " +ObjPersona3.nombre+ ", Cedula: "+ ObjPersona3.cedula + ", Altura: "+	ObjPersona3.estaturaMetros);
+		System.out.println("El nombre es: " +objPersona.getNombre()+ ", Cedula: "+ objPersona.getCedula() + ", Altura: "+	objPersona.getEstaturaMetros());
+		System.out.println("El nombre es: " +objPersona2.getNombre()+ ", Cedula: "+ objPersona2.getCedula() + ", Altura: "+	objPersona2.getEstaturaMetros());
+		System.out.println("El nombre es: " +ObjPersona3.getNombre()+ ", Cedula: "+ ObjPersona3.getCedula() + ", Altura: "+	ObjPersona3.getEstaturaMetros());
 
 		
 		
