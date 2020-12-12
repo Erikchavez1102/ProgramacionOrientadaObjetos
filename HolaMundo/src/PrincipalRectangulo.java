@@ -2,7 +2,14 @@
 public class PrincipalRectangulo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		int resultadoBase = 0;
+		int resultadoAltura = 0;
+
+		Rectangulo resultadoBase = resultadoBase.perimetro(10, 5);
+		Rectangulo resultadoAltura = objAltura.perimetro(10, 5);
+
+		System.out.println("Resultado = " + resultado);
 
 	}
 
