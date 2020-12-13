@@ -22,6 +22,10 @@ public class Persona {
 	public void setEstaturaMetros(double estaturaMetros) {
 		this.estaturaMetros = estaturaMetros;
 	}
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", cedula=" + cedula + ", estaturaMetros=" + estaturaMetros + "]";
+	}
 	
 	
 	

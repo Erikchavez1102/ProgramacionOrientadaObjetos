@@ -27,8 +27,8 @@ public class Principal {
 		System.out.println("El nombre es: " +objPersona.getNombre()+ ", Cedula: "+ objPersona.getCedula() + ", Altura: "+	objPersona.getEstaturaMetros());
 		System.out.println("El nombre es: " +objPersona2.getNombre()+ ", Cedula: "+ objPersona2.getCedula() + ", Altura: "+	objPersona2.getEstaturaMetros());
 		System.out.println("El nombre es: " +ObjPersona3.getNombre()+ ", Cedula: "+ ObjPersona3.getCedula() + ", Altura: "+	ObjPersona3.getEstaturaMetros());
-
-		
+		System.out.println("======================================================");
+		System.out.println(objPersona.toString());
 		
 		
 		
