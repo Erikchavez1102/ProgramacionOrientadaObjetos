@@ -1,3 +1,4 @@
+package PackAuto;
 
 public class Auto {
 

@@ -1,4 +1,4 @@
-
+package PackAuto;
 public class PrincipalAuto {
 
 	public static void main(String[] args) {
