@@ -23,8 +23,10 @@ public class PrincipalAuto {
 		System.out.println("Auto1: "+objAuto1.marca+", Año: " + objAuto1.anio +", Precio Dolares: "+ objAuto1.precio);
 		System.out.println("Auto2: "+objAuto2.marca+", Año: " + objAuto2.anio +", Precio Dolares: "+ objAuto2.precio);
 		System.out.println("Auto3: "+objAuto3.marca+", Año: " + objAuto3.anio +", Precio Dolares: "+ objAuto3.precio);
-
-
+		
+		System.out.println(objAuto1.toString());
+		System.out.println(objAuto2.toString());
+		System.out.println(objAuto3.toString());
 	}
 
 }
